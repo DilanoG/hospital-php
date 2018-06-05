@@ -12,7 +12,7 @@ function index(){
 
 function editPatient($id){
 	editPatientDB($id);
-	header("Location: /PHP/hospital-php/patient/index");
+	header("Location: /hospital-php/patient/index");
 }
 
 function edit($id){
@@ -32,10 +32,10 @@ function create(){
 
 function insert(){
 	insertPatient();
-	header("Location: /PHP/hospital-php/patient/index");
+	header("Location: /hospital-php/patient/index");
 }
 
 function delete($id){
 	deletePatient($id);
-	header("Location: /PHP/hospital-php/patient/index");
+	header("Location: /hospital-php/patient/index");
 }
